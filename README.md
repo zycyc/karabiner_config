@@ -29,3 +29,6 @@ To import a customized script after modifying the json file, go to this [K-E](ht
 # Complex Modifications (a screenshot)
 
 <img src="complex_modifications.png" alt="Complex Modifications"  width="640" />
+
+# Helpful refs
+How to sync profiles across devices: https://karabiner-elements.pqrs.org/docs/manual/operation/export/
