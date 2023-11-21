@@ -1,0 +1,154 @@
+{
+  "title": "Launch MacOS apps",
+  "rules": [
+    {
+      "description": "Launch apps by left command+left control+left option+letters.",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Safari.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Slack.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/System/Applications/Mail.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Notion.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Visual Studio Code.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/WeChat.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/System/Applications/Calendar.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_gui",
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/System/Applications/Utilities/Terminal.app'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
