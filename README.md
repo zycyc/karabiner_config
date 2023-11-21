@@ -25,3 +25,7 @@
     - n: Notion
 
 To import a customized script after modifying the json file, go to this [K-E](https://ke-complex-modifications.pqrs.org) page, find a similar script, hit `Edit JSON (Open external site)` and paste the content in the bottom right textbox for further import into K-E.
+
+# Complex Modifications (a screenshot)
+
+<img src="complex_modifications.png" alt="Complex Modifications"  width="640" />
